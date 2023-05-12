@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #f2f3f3;
+  margin: 0px;
+  height: 100%;
+}
+
+.item{
+  color: rgb(80, 255, 220);
+  text-align: center;
+  background-color: #7490c8;
+}
+
+.containers{
+  background: #00CED1;
+}
+
+.Papers{
+  width: 700px;
+  height: 620px;
+  margin: 25px auto;
+  padding: 1rem;
+}
+.pagePaper{
+  width: 100%;
+  height: 100%;
+}
+.loginpage{
+  width: 60%;
+  height: 100%;
+  font-size: 15px;
+  margin: 8% auto;
+}
+.positionfiled{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blockfiled{
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-right: 2%;
+}
+.labelfiled{
+  width: 80px;
+}
+.textfiled{
+  width: 100%;
+}
+
+.tablepaper{
+  padding: 10px;
+}
+
+.dttable{
+  font-size: 15px;
+  text-align: center;
+}
+
+.btlogin{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btbasic{
+  background-color: #82CAFF;
+}
+
+.txtfont{
+  font-size: medium;
+}
+.text{
+  text-align: center;
+}
+
+.txtwelcome{
+  font-size: 22px;
+  text-align: right;
+}
+
+.errors{
+  font-size: 14px;
+  color: red;
+}
+
+.titlename{
+  text-align: center;
+  font-size: 15px;
+  background-color: #81D8D0;
+  padding: 1px;
+  width: 100%;
+}
+
+.cardpage{
+  width: 30%;
+  min-height: 45vh;
+  font-size: 15px;
+  text-align: center;
+}
+.pagecard{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.cardtxt{
+  background-color: #00CED1;
+  padding: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#maindiv{
+  margin: auto;
+}
+.contain{
+  border: 1px solid;
+  width: 100px;
+  height: 30px;
+  padding: 8px;
+  margin: 2px;
+  text-align: center;
+  float: left;
+  background: #F5F5F5;
+}
+
+.selected{
+  background: #82CAFF;
+}
+
+.calendar{
+  margin: 15px auto;
+  width: 612px;
+  height: 157px;
+}
+
+.tableview{
+  width: 100%;
+}
+
