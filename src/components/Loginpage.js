@@ -29,6 +29,10 @@ function Loginpage(){
         })
     };
 
+    const onBack = () => {
+        navigate("/")
+    }
+
     const onClear = ()=>{
         setEmail('');
         setPassword('');
@@ -88,6 +92,13 @@ function Loginpage(){
                         </Button>
                     </div>
                     <br />
+                    <div>
+                        <Button style={{ backgroundColor: "grey", padding: 8, marginLeft: 50}}
+                            onClick={onBack} variant="contained" color="primary">
+                            Back
+                        </Button>
+                    </div>
+                    <br/>
                 </Paper>
             </div>
         </div>

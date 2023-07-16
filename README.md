@@ -8,4 +8,11 @@ cd Booking_Room
 npm install   //(option)
 npm start
 ```
+
+##### E-mail/Password ที่ใช้ทดสอบ
+```
+E-mail : admin@gmail.com
+Password : 111111
+```
+
 Doccument : [BookingRoom_Presentation.pdf](https://github.com/sirichai10/Booking_Room/tree/main/Documents/B6227166_BookingRoom_Presentation.pdf)

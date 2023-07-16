@@ -16,6 +16,15 @@ const PanelMenuUser = () => {
             command: (e) => {
                 window.location.href = "/studySchedule"
             }
+        },
+        {disabled: true,},
+        {disabled: true,},
+        {
+            label: 'Login to Booking',
+            icon: 'pi pi-fw pi-file',
+            command: (e) => {
+                window.location.href = "/login"
+            }
         }
     ];
 

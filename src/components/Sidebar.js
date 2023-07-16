@@ -15,7 +15,7 @@ const PanelMenuDemo = () => {
                     label:'Log out',
                     icon:'pi pi-fw pi-sign-out',
                     command:(e) => {
-                        window.location.href = "/login"
+                        window.location.href = "/"
                         logout()
                     }
                 },
